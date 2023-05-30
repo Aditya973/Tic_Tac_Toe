@@ -1,0 +1,83 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+body{
+    background-color: rgb(231, 231, 129);
+}
+h1{
+    text-align: center ;
+    margin-bottom: 20px;
+    color: red;
+}
+#winner{
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px 4px;
+    font-weight: bold;
+    text-align: center;
+}
+.container{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    margin: 12px auto;
+    justify-content: center;
+}
+
+table td{
+    margin: 3px 4px;
+    padding: 3px 4px;
+    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 4em;
+}
+
+.btn{
+    padding: 4px 5px;
+    display: flex;
+    background :none;
+    margin:12px auto;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+}
+.btn:hover{
+    color : red;
+    transition: 0.3s;
+}
+#td0{
+    border-top: none;
+    border-left: none;
+}
+#td1{
+    border-top: none;
+}
+#td2{
+    border-top: none;
+    border-right: none;
+}
+#td3{
+    border-left: none;
+}
+
+#td5{
+    border-right: none;
+}
+#td6{
+    border-left: none;
+    border-bottom: none;
+}
+#td7{
+    border-bottom: none;
+}
+#td8{
+    border-bottom: none;
+    border-right: none;
+}
